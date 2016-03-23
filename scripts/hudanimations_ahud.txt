@@ -196,3 +196,43 @@ event DamagedPlayer
 	// use RGBA. 
 
 }
+
+
+event MenuOpen
+{
+	StopEvent	MenuClose 0.0 
+
+	// fade in
+	Animate HudMenu Alpha 			"255"		Linear 0.0 0.1
+	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
+	Animate HudMenu FgColor			"FgColor"	Linear 0.0 0.1
+	Animate HudMenu MenuColor		"MenuColor"	Linear 0.0 0.1
+	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
+	Animate HudMenu TextScan		"1"			Linear 0.0 0.1
+
+	// Undo any blur
+	Animate HudMenu	Blur			"1"			Linear 0.0 0.01
+	StopEvent FillUberBar 0.0
+	RunEvent ClearUberBar 0.01
+}
+
+event MenuClose
+{	
+	// Hide it
+	Animate HudMenu Alpha 			"0" Linear 0.0 1
+	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
+	Animate HudMenu FgColor			"0 0 0 0" Linear 0.0 1
+	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+	RunEvent FillUberBar 0.0
+}
+
+event FillUberBar
+{
+	Animate UberBox wide "115" Linear 0.0 40.00
+}
+
+event ClearUberBar
+{
+	Animate UberBox wide "0" Linear 0.0 0.001
+}
