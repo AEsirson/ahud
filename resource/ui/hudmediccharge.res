@@ -262,4 +262,62 @@
 		"pin_to_sibling_corner" "1"
 	}
 	
+	
+	"UberBoxBackDrop1"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"UberBoxBackDrop1"
+		"textAlignment"	"center"
+		"font"		"AchievementNotification"
+		"xpos"		"c102"
+		"ypos"		"72"
+		"zpos"		"1"
+		"wide"		"92"
+		"tall"		"6"
+		"enabled"	"1"
+		"visible"	"1"
+		"fillcolor"	"64 64 64 255"
+		"alpha"		"255"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"		"0"
+	}
+	
+	"UberBoxBackDrop2"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"UberBoxBackDrop1"
+		"textAlignment"	"center"
+		"font"		"AchievementNotification"
+		"xpos"		"c194"
+		"ypos"		"72"
+		"zpos"		"1"
+		"wide"		"23"
+		"tall"		"6"
+		"enabled"	"1"
+		"visible"	"1"
+		"fillcolor"	"128 128 128 255"
+		"alpha"		"255"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"		"0"
+	}
+
+	"UberBox"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"UberBox"
+		"textAlignment"	"center"
+		"font"		"AchievementNotification"
+		"xpos"		"c102"
+		"ypos"		"72"
+		"zpos"		"2"
+		"wide"		"0"
+		"tall"		"6"
+		"enabled"	"1"
+		"visible"	"1"
+		"fillcolor"	"255 255 255 255"
+		"alpha"		"255"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"		"0"
+	}
+	
 }
