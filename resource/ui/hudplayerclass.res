@@ -277,4 +277,61 @@
 			}
 		}
 	}
+	
+	"UberBoxBackDrop1"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"UberBoxBackDrop1"
+		"textAlignment"	"center"
+		"font"		"AchievementNotification"
+		"xpos"		"c-60"
+		"ypos"		"c136"
+		"zpos"		"1"
+		"wide"		"96"
+		"tall"		"6"
+		"enabled"	"1"
+		"visible"	"1"
+		"fillcolor"	"64 64 64 255"
+		"alpha"		"255"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"		"0"
+	}
+	
+	"UberBoxBackDrop2"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"UberBoxBackDrop2"
+		"textAlignment"	"center"
+		"font"		"AchievementNotification"
+		"xpos"		"c36"
+		"ypos"		"c136"
+		"zpos"		"1"
+		"wide"		"24"
+		"tall"		"6"
+		"enabled"	"1"
+		"visible"	"1"
+		"fillcolor"	"128 128 128 255"
+		"alpha"		"255"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"		"0"
+	}
+
+	"UberBox"
+	{
+		"controlname"	"ImagePanel"
+		"fieldname"		"UberBox"
+		"textAlignment"	"center"
+		"font"		"AchievementNotification"
+		"xpos"		"c-60"
+		"ypos"		"c136"
+		"zpos"		"2"
+		"wide"		"0"
+		"tall"		"6"
+		"enabled"	"1"
+		"visible"	"1"
+		"fillcolor"	"255 255 255 255"
+		"alpha"		"255"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"		"0"
+	}
 }

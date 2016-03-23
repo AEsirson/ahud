@@ -229,7 +229,7 @@ event MenuClose
 
 event FillUberBar
 {
-	Animate UberBox wide "115" Linear 0.0 40.00
+	Animate UberBox wide "120" Linear 0.0 40.00
 }
 
 event ClearUberBar
