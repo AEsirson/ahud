@@ -207,7 +207,6 @@ event DamagedPlayer
 
 }
 
-
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
@@ -245,4 +244,14 @@ event FillUberBar
 event ClearUberBar
 {
 	Animate UberBox wide "0" Linear 0.0 0.001
+}
+
+event WinPanel_CompPos
+{
+    Animate WinPanel ypos r163 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+    Animate WinPanel ypos r163 Linear 0 0
 }
